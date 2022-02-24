@@ -7,8 +7,7 @@ public class FreqCount {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter array size:");
-        int n;
-        n = sc.nextInt();
+        int n = sc.nextInt();
         int arr[] = new int[n];
         System.out.println("Enter elements:");
         for (int i = 0; i < n; i++) {
@@ -16,9 +15,9 @@ public class FreqCount {
         }
         int fr[] = new int[n];
         int visited = -1;
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < n; i++) {
             int count = 1;
-            for (int j = i + 1; j < arr.length; j++) {
+            for (int j = i + 1; j < n; j++) {
                 if (arr[i] == arr[j]) {
                     count++;
 
