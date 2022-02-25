@@ -6,6 +6,7 @@ public class FreqCount {
 
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Changed code here");
         System.out.println("Enter array size:");
         int n = sc.nextInt();
         int arr[] = new int[n];
