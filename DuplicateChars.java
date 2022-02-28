@@ -12,7 +12,7 @@ public class DuplicateChars {
         for (int i = 0; i < vals.length; i++) {
             c = 1;
             for (int j = i + 1; j < vals.length; j++) {
-                if (vals[i] == vals[j] && vals[i] != ' ') {
+                if (vals[i] == vals[j]) {
                     c++;
 
                 vals[j] = '0';
