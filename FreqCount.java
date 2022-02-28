@@ -15,7 +15,7 @@ public class FreqCount {
             arr[i] = sc.nextInt();
         }
         int fr[] = new int[n];
-        System.out.println("Adding some line");
+        System.out.println("Adding some line again");
         int visited = -1;
         for (int i = 0; i < n; i++) {
             int count = 1;
